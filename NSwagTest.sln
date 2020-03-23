@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwagTest.Models", "NSwagTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwagTest.Client", "NSwagTest.Client\NSwagTest.Client.csproj", "{0C76D377-D721-4BA1-8CD2-2515BA9949C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwagTest.Consumer", "NSwagTest.Consumer\NSwagTest.Consumer.csproj", "{335DF133-D51F-42DC-8525-A83A89BEB495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0C76D377-D721-4BA1-8CD2-2515BA9949C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C76D377-D721-4BA1-8CD2-2515BA9949C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C76D377-D721-4BA1-8CD2-2515BA9949C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335DF133-D51F-42DC-8525-A83A89BEB495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335DF133-D51F-42DC-8525-A83A89BEB495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335DF133-D51F-42DC-8525-A83A89BEB495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335DF133-D51F-42DC-8525-A83A89BEB495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

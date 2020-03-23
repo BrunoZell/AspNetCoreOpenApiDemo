@@ -19,7 +19,8 @@
   <ItemGroup>
     <OpenApiProjectReference  Include="../NSwagTest.Server/NSwagTest.Server.csproj">
       <CodeGenerator>NSwagCSharp</CodeGenerator>
-      <Namespace>Rabot.Swagger</Namespace>
+      <Namespace>NSwagTest.Client</Namespace>
+      <ClassName>NSwagTestApiClient</ClassName>
       <Options>/dateType:System.DateTime /dateTimeType:System.DateTime</Options>
     </OpenApiProjectReference>
   </ItemGroup>
