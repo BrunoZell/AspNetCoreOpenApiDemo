@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwagTest.Server", "NSwagTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwagTest.Models", "NSwagTest.Models\NSwagTest.Models.csproj", "{CD881CA0-51DD-4933-A074-9027E993F3E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwagTest.Client", "NSwagTest.Client\NSwagTest.Client.csproj", "{0C76D377-D721-4BA1-8CD2-2515BA9949C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CD881CA0-51DD-4933-A074-9027E993F3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD881CA0-51DD-4933-A074-9027E993F3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD881CA0-51DD-4933-A074-9027E993F3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C76D377-D721-4BA1-8CD2-2515BA9949C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C76D377-D721-4BA1-8CD2-2515BA9949C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C76D377-D721-4BA1-8CD2-2515BA9949C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C76D377-D721-4BA1-8CD2-2515BA9949C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
