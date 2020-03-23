@@ -6,7 +6,6 @@
 
   <PropertyGroup>
     <OpenApiRetrieveDocuments>true</OpenApiRetrieveDocuments>
-    <OpenApiDocumentsDirectory>.</OpenApiDocumentsDirectory>
     <OpenApiGenerateDocumentsOnBuild>true</OpenApiGenerateDocumentsOnBuild>
   </PropertyGroup>
 
