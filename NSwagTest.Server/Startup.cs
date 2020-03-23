@@ -25,6 +25,7 @@ namespace NSwagTest.Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddOpenApiDocument(document => document.DocumentName = "NSwagTestApi");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +39,9 @@ namespace NSwagTest.Server
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseOpenApi(); // serve documents (same as app.UseSwagger())
+            app.UseSwaggerUi3(); // serve Swagger UI
 
             app.UseEndpoints(endpoints =>
             {
