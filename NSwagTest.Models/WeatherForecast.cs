@@ -1,6 +1,6 @@
 using System;
 
-namespace NSwagTest.Server
+namespace NSwagTest.Models
 {
     public class WeatherForecast
     {
