@@ -11,13 +11,18 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-  
+
+  <ItemGroup>
+    <ProjectReference Include="..\NSwagTest.Models\NSwagTest.Models.csproj" />
+  </ItemGroup>
+
   <ItemGroup>
     <OpenApiProjectReference Include="../NSwagTest.Server/NSwagTest.Server.csproj">
       <CodeGenerator>NSwagCSharp</CodeGenerator>
       <Namespace>NSwagTest.Client</Namespace>
       <ClassName>NSwagTestApiClient</ClassName>
-      <Options>/dateType:System.DateTime /dateTimeType:System.DateTime</Options>
+      <Options>/GenerateDtoTypes:false /AdditionalNamespaceUsages:NSwagTest.Models</Options>
     </OpenApiProjectReference>
   </ItemGroup>
+
 </Project>
